@@ -1,0 +1,12 @@
+{
+  "name": "phishing-detector-system",
+  "private": true,
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=client",
+    "dev": "npm run dev --workspace=client",
+    "start": "npm run start --workspace=client"
+  }
+}
